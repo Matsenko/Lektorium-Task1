@@ -19,11 +19,24 @@
 
 .wrapper2{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  
+  justify-content: space-around;
 
 
+}
+
+.wrapper3{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper4{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .dot {
   border-radius: 50%;
